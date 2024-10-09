@@ -1,0 +1,15 @@
+{
+  "name": "Assembly Dev Environment",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "hbenl.vscode-test-explorer",    // Optional: Test Explorer
+        "maziac.asm-code-lens"      // Optional: Assembly Code Lens
+      ]
+    }
+  }
+}
